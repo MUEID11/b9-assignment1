@@ -152,7 +152,7 @@ main {
 .coming-soon {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: left;
   margin: 120px 0;
 }
@@ -177,3 +177,20 @@ main {
 .coming-soon-content .new-year-z {
   height: 200px;
 }
+/*holiday sale section*/
+
+.holiday-text{
+    max-width: 700px;
+    margin: 0 auto 70px;
+}
+.holiday-text h2{
+    font-size: 72px;
+    font-weight: 900;
+    margin: 15px 0;
+}
+.holiday-text h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
