@@ -17,8 +17,7 @@
 }
 /*Header section styling*/
 header {
-  font-family: "Merriweather", serif;
-  background-image: linear-gradient(
+  background: linear-gradient(
       180deg,
       #000000 0%,
       rgba(0.25, 0.25, 1, 00) 100%
@@ -27,15 +26,19 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 20px;
+  margin: 0 140px;
+  border-radius: 16px;
   overflow: hidden;
   transition: 0.3s;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .banner {
   text-align: center;
   color: var(--text-white);
   min-width: 600px;
-  padding: 300px 0;
 }
 .banner h4 {
   font-size: 32px;
@@ -51,14 +54,13 @@ header {
 }
 /*Main section styling*/
 main {
-  font-family: "Inter", sans-serif;
-  margin-top: 120px;
+  margin:120px 140px;
   text-align: center;
 }
 .offer > h1 {
   /* margin: auto; */
   color: var(--text-secondary);
-  font-size: 92px;
+  font-size: 90px;
   margin-bottom: 30px;
 }
 .offer > h5 {
@@ -189,8 +191,110 @@ main {
     margin: 15px 0;
 }
 .holiday-text h5{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
 }
-
-
+.holiday-positioning{
+  max-height: 600px;
+  position: relative;
+  margin-bottom: 120px;
+}
+.holiday-sale-images{
+  display: flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  padding-left: 150px;
+}
+.shopping-women{
+  min-height: 450px;
+}
+.sale-50{
+  position: absolute;
+  transform: translate(-50%,-120%);
+}
+.rectangle-2{
+  background-image: url("./images/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  transform: translate(0,-10%);
+}
+.gift-box img{
+  position: absolute;
+  z-index: 1;
+  height: 600px;
+}
+/*portfolio section styling*/
+.portfolio-text{
+  text-align: left;
+}
+.portfolio-text > h5{
+  font-size: 24px;
+  font-weight: 600;
+}
+.portfolio-text > h3{
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+.portfolio-text > p {
+  font-size: 18px;
+  font-weight:200px;
+  margin-top: 10px;
+}
+.portfolio-images{
+  display: grid;
+  gap: 40px;
+  margin: 48px 0;
+}
+.first-row, .second-row{
+  display: flex;
+  justify-content: space-between;
+}
+.first-row img, 
+.second-row img{
+  width: 500px;
+  transition: .5s;
+}
+.first-row img:hover, 
+.second-row img:hover{
+  transform: scale(1.1);
+  border-radius: 20px;
+}
+/* news letter section styling*/
+.news-letter{
+  background: rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+}
+.newsletter-content{
+  max-width: 800px;
+  margin: auto;
+  padding: 100px;
+}
+.newsletter-content h4{
+  font-size: 48px;
+  font-weight: 600;
+  margin: 20px 0 10px 0;
+}
+.input-sub{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.input-sub input{
+  height: 40px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+}
+.input-sub button{
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px 16px;
+  background-color: var(--text-secondary);
+  color: var(--text-white);
+  border: none;
+  border-radius: 0 20px 20px 0;
+  text-transform: uppercase;
+}
