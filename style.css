@@ -310,12 +310,16 @@ footer {
   transform: translate(0%, 25%);
 }
 .footer-images {
-  margin: 50px auto;
+  margin: 30px auto;
   max-width: 400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+}
+.footer-images img{
+  height: 40px;
+  width: auto;
 }
 .rights-unsub {
   color: var(--text-white);
@@ -323,4 +327,12 @@ footer {
   justify-content: space-between;
   margin: 50px 0 auto 0;
   cursor: pointer;
+}
+hr{
+  color: white;
+  margin-top: 10px;
+  width: 50%;
+}
+#hr1{
+  margin-left: auto;
 }
