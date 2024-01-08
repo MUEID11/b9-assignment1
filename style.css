@@ -297,4 +297,35 @@ main {
   border: none;
   border-radius: 0 20px 20px 0;
   text-transform: uppercase;
+  cursor: pointer;
+}
+/*footer section styling*/
+footer{
+  background-color: #070211;
+  padding: 140px;
+  min-height: 500px;
+}
+.f-content{
+  color: var(--text-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contacts img{
+  width: 20px;
+  margin-right: 10px;
+ transform: translate(0%, 25%);
+}
+.footer-images{
+  margin: 50px auto;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rights-unsub{
+  color: var(--text-white);
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 auto 0;
 }
